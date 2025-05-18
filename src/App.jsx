@@ -7,8 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/hero" element={<Hero />} />
-        <Route path="/footer" element={<Footer />} />
+        <Route path="/" element={<Hero />} />
       </Routes>
     </BrowserRouter>
   );
